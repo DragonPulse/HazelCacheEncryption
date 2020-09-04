@@ -1,0 +1,42 @@
+[
+  {
+    "accountId": 1,
+    "username": "johnsnow",
+    "email": "johnsnow@gameofthrones.com",
+    "firstName": "John",
+    "lastName": "Snow",
+    "about": "I know nothing!"
+  },
+  {
+    "accountId": 2,
+    "username": "daenerys",
+    "email": "daenerys@gameofthrones.com",
+    "firstName": "Daenerys",
+    "lastName": "Targaryen",
+    "about": "I'm the Mother of Dragons"
+  },
+  {
+    "accountId": 3,
+    "username": "sansastark",
+    "email": "sansastark@gameofthrones.com",
+    "firstName": "Sansa",
+    "lastName": "Stark",
+    "about": "I'm the Lady of Winterfell"
+  },
+  {
+    "accountId": 4,
+    "username": "tyrionlannister",
+    "email": "tyrionlannister@gameofthrones.com",
+    "firstName": "Tyrion",
+    "lastName": "Lannister",
+    "about": "A Lannister always pays his debts"
+  },
+  {
+    "accountId": 5,
+    "username": "thor",
+    "email": "thor@asgard.com",
+    "firstName": "Thor",
+    "lastName": "Lord",
+    "about": "Lord Of Thunder"
+  }
+]

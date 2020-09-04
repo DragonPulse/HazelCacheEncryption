@@ -1,0 +1,70 @@
+<!DOCTYPE HTML>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+	<title>HazelCast Encryption</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+	<link href="http://netdna.bootstrapcdn.com/twitter-bootstrap/3.3.7/css/bootstrap.min.css"
+		  th:href="@{/webjars/bootstrap/3.3.7/css/bootstrap.min.css}" rel="stylesheet" ></link>
+	<link rel="stylesheet" th:href="@{css/form.css}"></link>
+
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" ></link>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<link rel="stylesheet" href="https://cdn.datatables.net/1.10.19/css/jquery.dataTables.min.css"> </link>
+	<script src="https://cdn.datatables.net/1.10.19/js/jquery.dataTables.min.js"></script>
+	<script src="/js/users.js"></script>
+</head>
+<body>
+
+
+<nav class="navbar navbar-inverse">
+	<div class="container">
+		<!-- Brand and toggle get grouped for better mobile display -->
+		<div class="navbar-header">
+			<a class="navbar-brand" href="/home">HazelCast Encryption</a>
+		</div>
+	</div>
+</nav>
+
+<body>
+<div class="container">
+	<div class="well well-lg">
+		<h3>All User Details - User info is loaded from users.json static file</h3>
+		<table id="usersTable" class="display">
+
+			<!-- Header Table -->
+			<thead>
+			<tr>
+				<th>Account Id</th>
+				<th>User Name</th>
+				<th>Email</th>
+				<th>First Name</th>
+				<th>Last Name</th>
+				<th>About</th>
+				<th> </th>
+			</tr>
+			</thead>
+
+		</table>
+	</div>
+	<hr></hr>
+	<div class="well well-lg">
+		<h3>Cache Info</h3>
+		<table id="cacheInfoTable" class="display">
+			<!-- Header Table -->
+			<thead>
+			<tr>
+				<th>Key</th>
+				<th>Value</th>
+				<th></th>
+			</tr>
+			</thead>
+
+		</table>
+	</div>
+
+
+</div>
+</body>
+</body>
+</html>
